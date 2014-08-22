@@ -1,0 +1,15 @@
+{
+  "name": "git-bundle-sha",
+  "version": "0.0.1",
+  "description": "Retrieve the git SHA of the commit that most recently touched a list of files.",
+  "main": "lib/git-sha.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Jason Anderson"
+    "email": "diurnalist@gmail.com"
+    "url": "http://diurnal.st"
+  },
+  "license": "ISC"
+}
