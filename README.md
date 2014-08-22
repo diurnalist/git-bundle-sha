@@ -6,11 +6,19 @@ something like a hash, but tied to something more real (like a Git history.)
 
 ## Usage
 
-Install using npm: `npm install git-bundle-sha`
+Install using npm: 
 
-And then require: `var gitsha = require('git-bundle-sha');`
+```bash
+npm install git-bundle-sha
+```
 
-### With a list of file paths
+And then require:
+
+```javascript
+var gitsha = require('git-bundle-sha');
+```
+
+#### With a list of file paths
 
 ```javascript
 gitsha(['lib/server.js', 'lib/common.js', 'helpers/handlebars.js'], function (err, sha) {
@@ -19,7 +27,7 @@ gitsha(['lib/server.js', 'lib/common.js', 'helpers/handlebars.js'], function (er
 });
 ```
 
-### Without a list (get HEAD SHA)
+#### Without a list (get HEAD SHA)
 
 ```javascript
 gitsha(function(err, sha) {
