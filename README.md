@@ -32,3 +32,9 @@ gitsha(function(err, sha) {
 
 This works by sub-shelling out to a Git process, so your node process must be able to access
 git. This also means that it is tied to your project directory at the moment.
+
+## Questions
+
+#### Is this submodule-aware?
+
+Yes. If you are using submodules, any file nested under that submodule directory will have a last-modified SHA that corresponds to the commit that last updated the submodule in the parent project.
