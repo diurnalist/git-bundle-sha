@@ -1,6 +1,6 @@
 {
   "name": "git-bundle-sha",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Retrieve the git SHA of the commit that most recently touched a list of files.",
   "main": "lib/git-sha.js",
   "scripts": {
