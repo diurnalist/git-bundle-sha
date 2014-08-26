@@ -1,5 +1,7 @@
 # git-bundle-sha
 
+[![Build Status](https://travis-ci.org/diurnalist/git-bundle-sha.svg?branch=master)](https://travis-ci.org/diurnalist/git-bundle-sha)
+
 Retrieve the Git SHA of the latest commit that touched any number of files.
 Useful in particular with bundling, when you want to identify a collection of files by something like a hash, but tied to something more real (like a Git history.)
 
