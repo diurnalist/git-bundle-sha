@@ -4,7 +4,7 @@
   "description": "Retrieve the git SHA of the commit that most recently touched a list of files.",
   "main": "lib/git-sha.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/test.js"
   },
   "author": {
     "name": "Jason Anderson",
@@ -14,5 +14,9 @@
   "license": "MIT",
   "dependencies": {
     "bluebird": "^2.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "sinon": "^1.10.3"
   }
 }
