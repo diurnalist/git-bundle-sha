@@ -1,8 +1,7 @@
 # git-bundle-sha
 
 Retrieve the Git SHA of the latest commit that touched any number of files.
-Useful in particular with bundling, when you want to identify a collection of files by
-something like a hash, but tied to something more real (like a Git history.)
+Useful in particular with bundling, when you want to identify a collection of files by something like a hash, but tied to something more real (like a Git history.)
 
 ## Usage
 
@@ -35,6 +34,14 @@ gitsha(function(err, sha) {
   console.log('HEAD is at ' + sha);
 });
 ```
+
+### Options
+
+#### `force`
+Don't read any values from cache (some things, like the submodule list, are cached for performance.) Default = `false`.
+
+#### `length`
+Trim the resulting SHA to a specified length. Default = `null` (no trimming.)
 
 ## Notes
 
